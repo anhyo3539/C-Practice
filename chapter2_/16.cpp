@@ -18,7 +18,7 @@ int main(){
             cnt++;
         }
     }
-    cout<<"ÃÑ ¾ËÆÄºª ¼ö "<< cnt<<"\n";
+    cout<<"ì´ ì•ŒíŒŒë²³ ìˆ˜ "<< cnt<<"\n";
     for(int i=0;i<26;i++){
         cout<<(char)('a'+i)<<" ("<<apt[i]<<") "<<" : ";
         for(int j=0;j<apt[i];j++){

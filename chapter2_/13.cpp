@@ -4,8 +4,8 @@ using namespace std;
 
 int main(){
     int num=0;
-    string menu[4]={"Â«»Í","Â¥Àå","±º¸¸µÎ","Á¾·á"};
-    cout<<" ***** ½Â·ÁÀå *****\n";
+    string menu[4]={"ì§¬ë½•","ì§œìž¥","êµ°ë§Œë‘","ì¢…ë£Œ"};
+    cout<<" ***** ìŠ¹ë ¤ìž¥ *****\n";
     while(1){
      for(int i=0;i<4;i++){
          cout<<menu[i]<<" : "<<i+1;
@@ -16,16 +16,16 @@ int main(){
         cout<<">>";
         cin>>num;
         if(num==4){
-            cout<<"¿À´Ã ¿µ¾÷Àº ³¡³µ½À´Ï´Ù.";
+            cout<<"ì˜¤ëŠ˜ ì˜ì—…ì€ ëë‚¬ìŠµë‹ˆë‹¤.";
             break;
         }
         else if (num>4){
-            cout<<"´Ù½Ã ÁÖ¹®ÇÏ¼¼¿ä!!\n";
+            cout<<"ë‹¤ì‹œ ì£¼ë¬¸í•˜ì„¸ìš”!!\n";
             continue;
         }
         int pn;
-        cout<<"¸îÀÎºÐ?";
+        cout<<"ëª‡ì¸ë¶„?";
         cin>>pn;
-        cout<<menu[num-1]<<" "<<pn<<"ÀÎºÐ ³ª¿Ô½À´Ï´Ù\n";
+        cout<<menu[num-1]<<" "<<pn<<"ì¸ë¶„ ë‚˜ì™”ìŠµë‹ˆë‹¤\n";
     }
 }

@@ -5,9 +5,9 @@ using namespace std;
 int main(){
     int n1,n2;
     int max;
-    cout<<"µÎ ¼ö¸¦ ÀÔ·ÂÇÏ¶ó>>";
+    cout<<"ë‘ ìˆ˜ë¥¼ ìž…ë ¥í•˜ë¼>>";
     cin>>n1>>n2;
-    cout<<"Å« ¼ö = ";
+    cout<<"í° ìˆ˜ = ";
     n1>n2?max=n1:max=n2;
     cout<<max;
 }

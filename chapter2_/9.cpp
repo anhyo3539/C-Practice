@@ -6,12 +6,12 @@ int main(){
     string name;
     string adress;
     int age;
-    cout<<"ÀÌ¸§Àº?";
+    cout<<"ì´ë¦„ì€?";
     cin>>name;
-    cout<<"ÁÖ¼Ò´Â?";
+    cout<<"ì£¼ì†ŒëŠ”?";
     cin.get();
     getline(cin,adress);
-    cout<<"³ªÀÌ´Â?";
+    cout<<"ë‚˜ì´ëŠ”?";
     cin>>age;
-    cout<<name<<", "<<adress<<", "<<age<<" ¼¼";
+    cout<<name<<", "<<adress<<", "<<age<<" ì„¸";
 }

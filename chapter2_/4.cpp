@@ -5,7 +5,7 @@ using namespace std;
 int main(){
     double n[5];
     double max;
-    cout<<"5 °³ÀÇ ½Ç¼ö¸¦ ÀÔ·ÂÇÏ¶ó>>";
+    cout<<"5 ê°œì˜ ì‹¤ìˆ˜ë¥¼ ìž…ë ¥í•˜ë¼>>";
     for(int i=0;i<5;i++){
 
         cin>>n[i];
@@ -15,6 +15,6 @@ int main(){
         }
         if(n[i]>max){max=n[i];}
     }
-    cout<<"Á¦ÀÏ Å« ¼ö = ";
+    cout<<"ì œì¼ í° ìˆ˜ = ";
     cout<<max;
 }

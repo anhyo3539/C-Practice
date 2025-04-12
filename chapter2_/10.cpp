@@ -4,7 +4,7 @@ using namespace std;
 
 int main(){
     string str;
-    cout<<"¹®ÀÚ¿­ ÀÔ·Â>>";
+    cout<<"ë¬¸ìì—´ ì…ë ¥>>";
     cin>>str;
     for(int i=0;i<str.length();i++){
         for(int j=0;j<=i;j++){

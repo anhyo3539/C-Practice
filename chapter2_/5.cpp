@@ -6,10 +6,10 @@ using namespace std;
 int main(){
      string str;
      int count=0;
-     cout<<"¹®ÀÚµéÀ» ÀÔ·ÂÇÏ¶ó(100°³¹Ì¸¸).\n";
+     cout<<"ë¬¸ìë“¤ì„ ì…ë ¥í•˜ë¼(100ê°œë¯¸ë§Œ).\n";
      getline(cin,str);
      for(int i=0;i<str.length();i++){
         if(str[i]=='x')count++;
      }
-     cout<<"xÀÇ °³¼ö´Â "<<count;
+     cout<<"xì˜ ê°œìˆ˜ëŠ” "<<count;
 }

@@ -6,7 +6,7 @@ using namespace std;
 int main(){
     string str;
     while(str!="yes"){
-        cout<<"Á¾·áÇÏ°í½ÍÀ¸¸é yes¸¦ ÀÔ·ÂÇÏ¼¼¿ä>>";
+        cout<<"ï¿½ï¿½ï¿½ï¿½ï¿½Ï°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ yesï¿½ï¿½ ï¿½Ô·ï¿½ï¿½Ï¼ï¿½ï¿½ï¿½>>";
          getline(cin,str);
     }
 }

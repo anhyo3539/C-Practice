@@ -5,9 +5,9 @@ using namespace std;
 int main(){
     string password;
     string passworda;
-    cout<<"»õ ¾ÏÈ£¸¦ ÀÔ·ÂÇÏ¼¼¿ä>>";
+    cout<<"ìƒˆ ì•”í˜¸ë¥¼ ì…ë ¥í•˜ì„¸ìš”>>";
     getline(cin,password);
-    cout<<"»õ ¾ÏÈ£¸¦ ´Ù½Ã ÇÑ ¹ø ÀÔ·ÂÇÏ¼¼¿ä>>";
+    cout<<"ìƒˆ ì•”í˜¸ë¥¼ ë‹¤ì‹œ í•œ ë²ˆ ì…ë ¥í•˜ì„¸ìš”>>";
     getline(cin,passworda);
-    password==passworda?cout<<"°°½À´Ï´Ù":cout<<"°°Áö ¾Ê½À´Ï´Ù";
+    password==passworda?cout<<"ê°™ìŠµë‹ˆë‹¤":cout<<"ê°™ì§€ ì•ŠìŠµë‹ˆë‹¤";
 }
